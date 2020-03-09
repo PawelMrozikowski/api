@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    text-decoration: yellow;
+}
+
+h1 {
+    color: rgb(175, 10, 10);
+}
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    
+    margin: 16px;
+
+}
+
+.list__item {
+    
+    background-color: salmon;
+    text-decoration: none;
+    margin: 8px;
+    padding: 16px;
+    text-align: center;
+
+}
+
+.list__link {
+    text-decoration: none;
+    transition: color .5s ease-in-out;
+    
+    &:hover {
+        color: #ffffff;
+        
+    }
+}
+
+.list__description {
+    font-size: 8px;
+}
+ 
+
